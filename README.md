@@ -12,6 +12,11 @@
 
 - ติดตั้ง Kafka ด้วย [docker-compose.yml](docker-compose.yml) นี้ 
 
+```sh
+$ cd spring-boot-reactive-kafka-example 
+$ docker compose up -d
+```
+
 **หมายเหตุ**   
 
 สามารถดูตัวอย่างการติดตั้ง Kafka ได้ตาม Link นี้ 
