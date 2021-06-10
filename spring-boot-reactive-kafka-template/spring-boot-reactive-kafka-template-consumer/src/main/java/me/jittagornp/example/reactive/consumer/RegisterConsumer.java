@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 @Slf4j
 @Service
 @RequiredArgsConstructor
-public class RegisterConsumerImpl implements CommandLineRunner {
+public class RegisterConsumer implements CommandLineRunner {
 
     private final ReactiveKafkaConsumerTemplate<String, RegisterRequest> reactiveKafkaConsumerTemplate;
 
